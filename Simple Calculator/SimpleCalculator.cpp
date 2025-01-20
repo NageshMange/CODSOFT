@@ -4,15 +4,15 @@ int main() {
     char op;//operator variable
     double num1, num2;//Num1 and Num2 variable
     cout<<"--------LETS CALCULATE--------"<<endl;
-    cout << "Enter an operator(+, -, *, /): "<<endl;//Take input operator
+    cout << "Enter an operator(+, -, *, /):- "<<endl;//Take input operator
     cin >> op;
     
-    //Take inputs of first and second number+
+    //Take inputs of first and second number
     cout<<"Enter First Number:-"<<endl;
     cin>>num1;
     cout<<"Enter Second Number:-"<<endl;
     cin>>num2;
-    
+    //Switch statement
     switch(op) {
         case '+':
             //Addition case
