@@ -10,7 +10,7 @@ void guess_the_number() {
     int guess;
     int attempts = 0;
 
-    cout << "Welcome to the Number Guessing Game!\n";
+    cout << "********Welcome to the Number Guessing Game!********\n";
     cout << "I'm thinking of a number between 1 and 100.\n";
 
     while (true) {
@@ -30,7 +30,7 @@ void guess_the_number() {
         } else if (guess > number) {
             cout << "Too high! Try again.\n";
         } else {
-            cout << "Congratulations! You guessed the number " << number << " in " << attempts << " attempts.\n";
+            cout << "Congratulations! You guessed the number accurately " << number << " in " << attempts << " attempts.\n";
             break;
         }
     }
